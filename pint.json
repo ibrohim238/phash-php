@@ -1,0 +1,36 @@
+{
+    "preset": "psr12",
+    "rules": {
+        "new_with_parentheses": false,
+        "not_operator_with_space": false,
+        "not_operator_with_successor_space": false,
+        "single_line_empty_body": false,
+        "array_indentation": true,
+        "binary_operator_spaces": {
+            "default": "align_single_space_minimal"
+        },
+        "function_declaration": {
+            "closure_fn_spacing": "none"
+        },
+        "type_declaration_spaces": {
+            "elements": ["function"]
+        },
+        "method_argument_space": {
+            "keep_multiple_spaces_after_comma": false,
+            "on_multiline": "ensure_fully_multiline",
+            "after_heredoc": false
+        },
+        "method_chaining_indentation": true,
+        "trailing_comma_in_multiline": {
+            "elements": [
+                "arrays",
+                "arguments",
+                "parameters"
+            ]
+        },
+        "no_extra_blank_lines": true,
+        "concat_space": {
+            "spacing": "one"
+        }
+    }
+}
