@@ -2,14 +2,14 @@
     "name": "ibrohim238/phash",
     "description": "Перцептивный хеш изображений, совпадающий бит в бит с imagehash.phash(hash_size=12, highfreq_factor=12) на Pillow 9.4.0",
     "type": "library",
-    "version": "0.2.0",
-    "license": "proprietary",
+    "version": "0.1.0",
+    "license": "MIT",
     "require": {
         "php": "~8.5.0",
         "ext-gd": "*",
         "ext-imagick": "*",
         "ext-json": "*",
-        "ext-phashext": "^0.1.1",
+        "ext-phashext": "^0.1.0",
         "ext-zlib": "*",
         "illuminate/support": "^11.0|^12.0|^13.0"
     },
